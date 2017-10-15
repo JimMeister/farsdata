@@ -1,0 +1,23 @@
+---
+title: "farsdata Package"
+author: "D. Gateley"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Package built according to the instructions of Week 4, Building R Packages course. The following functions in this package are to be used for reading and analyzing purposes of the Fatality Analysis Reporting System data:
+
+1) fars_read(): Creates a dataframe object from the specified file.
+
+2) make_filename(): Generates filenames of the accident_<YEAR>.csv.bz2 form.
+
+3) fars_read_years(): Creates a dataframe object based on the selected years.
+
+4) fars_summarize_years(): Aggregation of the dataframe object based on the selected years.
+
+5) fars_map_state(): Generates a plot for the selected state and year.
+

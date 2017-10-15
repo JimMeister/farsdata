@@ -9,6 +9,9 @@ License: GPL-3
 Encoding: UTF-8
 LazyData: true
 Suggests:
-    testthat
+    testthat,
+    knitr,
+    rmarkdown
 Imports: dplyr, maps, readr, tidyr
 RoxygenNote: 5.0.1
+VignetteBuilder: knitr
